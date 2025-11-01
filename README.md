@@ -40,3 +40,25 @@ This is the **first prototype** of a scoring and tracking system that detects a 
 - Scoring logic uses distance to **target center zone**
 
 ## 📂 Folder Structure
+
+## 📸 Visual References
+- `images/device_real.jpg`: Assembled prototype photo
+- `images/sensor_alignment.jpg`: Top view sensor layout
+- `images/ui_mockup.png`: Planned interface
+
+## 🧮 Scoring Logic
+- Hit zones (center, near-center, edge) assigned scores: 10, 7, 3, 0
+- If projectile impacts within 3cm of center: score = 10
+- Scoring calculated in real-time and sent to frontend
+
+## 🧪 Future Plans
+- Replace web interface with local screen (e.g. TFT via ESP32)
+- Integrate machine learning to predict hit points more accurately
+- Multi-projectile support (frame-by-frame scoring)
+
+## 📄 License
+Licensed under the **MIT License**.
+
+---
+> Developed by Tarik, 2025  
+> Part of experimental scoring and tracking research for embedded systems.
